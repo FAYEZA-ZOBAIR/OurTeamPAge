@@ -61,11 +61,11 @@
   flex-direction: column;
   align-items: center;
   border-radius: 5%;
-  padding-top: 30px;
+  padding-top: 10%;
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
-  backdrop-filter: blur(10px); /* Add backdrop-filter for the glass morph effect */
+  backdrop-filter: blur(30px); /* Add backdrop-filter for the glass morph effect */
   background: linear-gradient(135deg, rgba(183, 224, 224, 0.9), rgba(80, 149, 144, 0.9)); /* Gradient with increased opacity */
   transition: background 0.3s; /* Add transition for smooth color change effect */
 }
@@ -103,7 +103,7 @@
   margin-right: 0px;
   margin-bottom: 20px;
   margin-left: 0px;
-  color: rgb(122, 122, 122);
+  color: rgb(226, 240, 241);
   line-height: 30px;
 }
 
