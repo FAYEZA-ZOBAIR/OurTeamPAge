@@ -58,19 +58,20 @@
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 7px;
   display: flex;
-  border-radius: 5%;
   flex-direction: column;
   align-items: center;
+  border-radius: 5%;
   padding-top: 30px;
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
-  background-color: #A0CBCB;
-  transition: background-color 0.3s;
+  backdrop-filter: blur(10px); /* Add backdrop-filter for the glass morph effect */
+  background: linear-gradient(135deg, rgba(183, 224, 224, 0.9), rgba(80, 149, 144, 0.9)); /* Gradient with increased opacity */
+  transition: background 0.3s; /* Add transition for smooth color change effect */
 }
 
 .card:hover {
-  background-color: #78a19e; 
+  background: linear-gradient(135deg, rgba(120, 161, 158, 1), rgba(160, 203, 203, 1)); /* Adjust opacity on hover for a subtle change */
 }
 
 .card-container {
